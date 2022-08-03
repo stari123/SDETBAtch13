@@ -1,0 +1,30 @@
+What FileHandling:
+    Reading/writing data to a file is called file handling.
+Why FileHandling is important:
+    The data that changes frequently we don't put that data with
+    code because if we have to change that data we need to recompile the
+    code and redeploy the code on production servers again
+    it's a very lengthy process and might take weeks. The other
+    issue is we might accidentally change the code as well when
+    changing the data and might introduce bugs.
+How to handle files in java:
+    we follow below steps to read and write data to files.
+    1) we need to know the path of file
+    2) Navigate to that location using  FileInputStream if we are planning
+    to read the data from a file and FileOutputStream if we are planning to
+    write the data from a file.
+    3) Need to use the proper class that can handle that file for example if
+    we need to read/write data from properties class we can use the Properties class
+     and XSSFWorkBook class for Excel files.
+How to Create Properties file.
+    1) right-click on the folder in which we want to create the file
+    2) click on new=>File give any name to the file and after "." write
+    the extension as properties,  name.properties
+How to get the path of a file.
+    steps to get the path in intellij
+    1. right click on any file
+    2. click on get path reference
+    3. select content root path option
+
+How to create Excel File
+

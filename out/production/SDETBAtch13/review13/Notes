@@ -1,0 +1,5 @@
+throw:
+    We use the throw keyword to throw an exception.
+throws:
+    it is used to tell the caller of a method that this method
+    can throw this type of exception.
